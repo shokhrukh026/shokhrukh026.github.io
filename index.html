@@ -1,62 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title> Матрица (1999)-IMDb</title>
+	<meta charset="UTF-8">
+	<title>Personal blog</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header>
-	<hr color="black">
-	<h1 class="IMDb_home" align="left" title="Home">IMDb</h1>
-	<div>
-		<nav id="navs">
-			<p><textarea rows="1" cols="80" name="text"></textarea>
-				<select size="3" name="hero">
-   					 <option disabled>Выберите рыцаря</option>
-   					 <option selected>ALL</option>
-  					  <option value="t1">Гавейн</option>
-   					 <option value="t2">Ланселот</option>
-   					 <option value="t3">Галахэд</option>
-			   		 <option value="t4">Персиваль</option>
-   				</select>
-			</p>	
-			<div style="border-right: 1px solid grey; border-left: 1px solid grey;"><a href="">Movies, </a><a href="">TV &</a><a href=""> Showtimes</a></div>
-			<div style="border-right: 1px solid grey;"><a href="">Celebs, </a><a href="">Events &</a><a href=""> Photos</a></div>
-			<div style="border-right: 1px solid grey;"><a href="">News &</a> <a href=""> Community</a></div>
-			<div style="border-right: 1px solid grey;"><a href="" style="color:#F3CE00;">Watchlist</a></div>
-		</nav>
-	</div>
-</header>
-		<div id="header_2" style="background-image: url(img/headercenter.jpeg)">
-			<div id="navs_2">
-				<a href="">FULL CAST AND CREW</a>
-				<a href="">TRIVIA</a>
-				<a href="">USER REVIEWS</a>
-				<a href="">IMDbPro</a>
-				<a href="">MORE</a>
-				<a href="">SHARE</a>
-			</div>
-		</div>
-	<main>
-		<div class="images">
-			<a href="movies.html"><img src="img/img1.jpg" style="float: left; width: 300px; height: 450px;"></a>
-			<img src="img/escape.jpg" style="float: left; width: 300px; height: 450px;">
-			<img src="img/godfather1.jpg" style="float: left; width: 300px; height: 450px;">
-			<img src="img/godfather2.jpg" style="float: left; width: 300px; height: 450px;">
-		</div>
+	<p class="logo_main">Who is 'Shokhrukh'?</p>
+	<ul>
+		<li><a href="">Telegram</a></li>
+		<li><a href="" style="border-left: 1px solid grey; border-right: 1px solid grey;">Instagram</a></li>
+		<li><a href="">Facebook</a></li>
+	</ul>
+	<p>Hi, my name is Shokhrukh. I love playing table tennis,<br> playing cards and going to swimming. I am patient,<br> calm and strong guy.</p>
+	<img src="deadpool1.jpg" width="560;" height="400;" class="deadpool1">
 
-	</main>
-	</div>
-<footer>
-		<nav class="footer-nav">
-			<a href="https://www.google.com/">Help</a>
-			<a href="index.html">Subscribe</a>
-			<a href="index.html">Sitemap</a>
-			<a href="index.html">Advertasing with us</a>
-			<a href="index.html">Contact us</a>
-		</nav>
-		<p>© 1962-2017  Shokhrukh	 Consumer Media Ltd</p>
-</footer>
+	<h3>Personal details: </h3>
+	<p style="color: brown;"> Full name: Shokirjonov Shokhrukh<br> Shukur ug'li
+	<p> Id: U1710072</p>
+	<p style="color: #757575;"> Group: fabulous 17-16 group</p>
+	<a href="https://mail.inha.uz/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.inha.uz%2fowa%2f" id="inha_mail">Inha mail (click)</a>
+	<p style="font-family: New times Roman;">Achievement: Certificate of IELTS 6.0</p>
+	<button onclick=
+    "show_image('2222.jpg', 
+                 413, 
+                 531, 
+                 'Google Logo'); myFunction()">Click only one time!!!</button> 
+	<p id="myphoto"></p>
+	<script type="text/javascript">
+		function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    img.alt = alt;
+
+    // This next line will just add it to the <body> tag
+    document.body.appendChild(img);
+}
+function myFunction() {
+    document.getElementById("myphoto").innerHTML = "My photo.";
+}
+	</script>
+
 </body>
 </html>
