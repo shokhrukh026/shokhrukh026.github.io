@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Матрица (1999)-IMDb</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script type="text/javascript" src="scripts/myscripts.js"></script>
+</head>
+<body>
+<header>
+	<hr color="black">
+	<h1 class="IMDb_home" align="left" title="Home">IMDb</h1>
+	<div>
+		<nav id="navs">
+			<p><textarea rows="1" cols="80" name="text"></textarea>
+				<select size="3" name="hero">
+   					 <option disabled>Выберите рыцаря</option>
+   					 <option selected>ALL</option>
+  					  <option value="t1">Гавейн</option>
+   					 <option value="t2">Ланселот</option>
+   					 <option value="t3">Галахэд</option>
+			   		 <option value="t4">Персиваль</option>
+   				</select>
+			</p>	
+			<div style="border-right: 1px solid grey; border-left: 1px solid grey;"><a href="">Movies, </a><a href="">TV &</a><a href=""> Showtimes</a></div>
+			<div style="border-right: 1px solid grey;"><a href="">Celebs, </a><a href="">Events &</a><a href=""> Photos</a></div>
+			<div style="border-right: 1px solid grey;"><a href="">News &</a> <a href=""> Community</a></div>
+			<div style="border-right: 1px solid grey;"><a href="" style="color:#F3CE00;">Watchlist</a></div>
+		</nav>
+	</div>
+</header>
+		<div id="header_2" style="background-image: url(img1/headercenter.jpeg)">
+			<div id="navs_2">
+				<a href="">FULL CAST AND CREW</a>
+				<a href="">TRIVIA</a>
+				<a href="">USER REVIEWS</a>
+				<a href="">IMDbPro</a>
+				<a href="">MORE</a>
+				<a href="">SHARE</a>
+			</div>
+		</div>
+	<main>
+		<div class="images">
+			<a href="movies.html"><img src="img1/img1.jpg" style="float: left; width: 300px; height: 450px;"></a>
+			<img src="img1/escape.jpg" style="float: left; width: 300px; height: 450px;">
+			<img src="img1/godfather1.jpg" style="float: left; width: 300px; height: 450px;">
+			<img src="img1/godfather2.jpg" style="float: left; width: 300px; height: 450px;">
+		</div>
+
+		<br>
+		<div id="demo">You know what</div>
+		<button type="button" onclick="Myfunction()">Do it</button>
+		<br><br><br>
+		<button type="button" onclick="ReturnFunction()">return</button>
+		<br><br><br>
+
+		<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+		<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+		<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button><br><br><br>
+
+
+		<div id="hello">Hello to everyone!!</div>
+	</main>
+	</div>
+<footer>
+		<nav class="footer-nav">
+			<a href="https://www.google.com/">Help</a>
+			<a href="index.html">Subscribe</a>
+			<a href="index.html">Sitemap</a>
+			<a href="index.html">Advertasing with us</a>
+			<a href="index.html">Contact us</a>
+		</nav>
+		<p>© 1962-2017  Shokhrukh	 Consumer Media Ltd</p>
+</footer>	
+
+
+
+
+
+
+	<script>
+		function Myfunction(){
+		document.getElementById("demo").innerHTML="Paragraph changed and Shokhrukh changed it.";
+		}
+var x, y, z,d;
+x = 50;
+y = 6;
+z = (x + y)*100;
+d=(x+y+z);
+document.getElementById("hello").innerHTML = d;
+
+
+	</script>
+
+
+
+
+
+
+
+</body>
+</html>
